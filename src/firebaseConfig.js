@@ -9,7 +9,7 @@ import { getFirestore } from 'firebase/firestore';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: 'AIzaSyD3pucWnV9CoD1oyWT5AOh8fSYEFKmMrlM',
+  apiKey: 'YOUR_API_KEY',
   authDomain: 'shipment-delivery-app-717a7.firebaseapp.com',
   projectId: 'shipment-delivery-app-717a7',
   storageBucket: 'shipment-delivery-app-717a7.firebasestorage.app',
@@ -25,3 +25,4 @@ const auth = getAuth(app);
 const db = getFirestore(app);
 
 export { auth, db };
+
